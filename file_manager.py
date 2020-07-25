@@ -1,3 +1,9 @@
+import os
+import requests
+from tqdm import tqdm
+import tarfile
+import zipfile
+
 class FileManager:        
     @staticmethod
     def save_response_content(response, destination, file_size):
